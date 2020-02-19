@@ -12,7 +12,7 @@ Cenario: Realizar uma compra com sucesso!
   E Escolha um produto qualquer da loja
   Quando Adicione o produto escolhido ao carrinho
   E prossiga para o checkout
-  Entao Valide se o produto foi corretamente adicionado ao carrinho e prossiga caso esteja tudo certo
+  Quando Valide se o produto foi corretamente adicionado ao carrinho e prossiga caso esteja tudo certo
   Dado Realize o cadastro do cliente preenchendo todos os campos obrigatorios dos formularios
   E valide se o endereco esta correto e prossiga
   E aceite os termos de servicos e prossiga
