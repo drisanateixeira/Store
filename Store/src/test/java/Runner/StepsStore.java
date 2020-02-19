@@ -28,7 +28,7 @@ public class StepsStore {
     public static void prosseguirCheckout() {
         storePage.prosseguirCheckout();
     }
-    @Entao("^Valide se o produto foi corretamente adicionado ao carrinho e prossiga caso esteja tudo certo$")
+    @Quando("^Valide se o produto foi corretamente adicionado ao carrinho e prossiga caso esteja tudo certo$")
     public static void validarProdutoCarrinhoEProsseguir() {
         storePage.validaProdutoEProsseguirCheckout();
     }
